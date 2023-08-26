@@ -42,29 +42,41 @@
             </option>
         </select>
         <select class="font-size-prop">
-            <option value="14px">14</option>
+            <option value="14px">14</option >
             <option value="16px">16</option>
             <option value="18px">18</option>
             <option value="20px">20</option>
         </select>
-        <span class="material-icons">
+        <span class="material-icons bold-icon bold">
             format_bold
         </span>
-        <span class="material-icons">
+        <span class="material-icons italic-icon italic">
             format_italic
         </span>
-        <span class="material-icons">
+        <span class="material-icons underlined-icon underlined">
             format_underlined
         </span>
-        <span class="material-icons">
+        <span class="material-icons alignment">
             format_align_left
         </span>
-        <span class="material-icons">
+        <span class="material-icons alignment">
             format_align_center
         </span>
-        <span class="material-icons">
+        <span class="material-icons alignment">
             format_align_right
         </span> 
+        <div class="color-prop ">
+            <span class="material-icons">
+                format_color_text
+            </span>
+            <input type="color" class="font-color-prop">
+        </div>
+        <div class="color-prop">
+            <span class="material-icons">
+                format_color_fill
+            </span>
+            <input type="color" class="BGcolor-prop">
+        </div>
     </div>
     <div class="formula-actions-cont">
         <input type="text" class="address-bar" readonly>
@@ -91,6 +103,7 @@
         </div>
     </div>
 
-    <script src="./index.js"></script>
+    <script src="./grid.js"></script>
+    <script src="./cell-properties.js"></script>
 </body>
 </html>
